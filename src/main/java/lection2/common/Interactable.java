@@ -1,4 +1,4 @@
-package lection2;
+package lection2.common;
 
 import java.awt.*;
 

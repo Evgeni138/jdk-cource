@@ -1,9 +1,12 @@
-package lection2;
+package lection2.circles;
+
+import lection2.common.MainCanvas;
+import lection2.common.Sprite;
 
 import java.awt.*;
 import java.util.Random;
 
-public class Ball extends Sprite{
+public class Ball extends Sprite {
     private static Random rnd = new Random();
     private Color color;
     private float vX;

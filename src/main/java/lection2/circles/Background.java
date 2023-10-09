@@ -1,8 +1,11 @@
-package lection2;
+package lection2.circles;
+
+import lection2.common.MainCanvas;
+import lection2.common.Sprite;
 
 import java.awt.*;
 
-public class Background extends Sprite{
+public class Background extends Sprite {
     private float time;
     private static final float AMPLITUDE = 255f / 2f;
     private Color color;
